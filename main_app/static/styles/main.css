@@ -1,0 +1,99 @@
+html,body {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    /* Created with https://www.css-gradient.com */
+    /* background: #6A5B2F;
+    background: -webkit-linear-gradient(top left, #6A5B2F, #553614);
+    background: -moz-linear-gradient(top left, #6A5B2F, #553614);
+    background: linear-gradient(to bottom right, #6A5B2F, #553614);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-color: rgb(5, 57, 5);
+    /* background-color: rgb(4, 35, 129); */
+    height: 100%;
+    color:rgb(233, 220, 194);
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#lists > li {
+    margin-right: 25px;
+    display: inline;
+}
+
+.int{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    
+}
+.int > * {
+    margin: 10px;
+}
+.me {
+    border: #000000 solid 5px;
+    border-radius: 50% ;
+}
+
+.logos {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.logos > div > img {
+    height: 150px;
+    width: 200px;
+}
+.skills {
+    /* display: flex; */
+    border: 2px solid white;
+    margin: 0 20% 0 20%;
+    background-color: #000000;
+    padding: 5px;
+}
+#scnd {
+    padding: 10px;
+    text-align: center;
+}
+
+.abt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.abt > p {
+    width: 500px;
+    font-size: 20px;
+    text-align: left;
+
+}
+#Y {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+#Y > ul {
+    margin: 0 10px;
+    text-align: right;
+}
+.benefits {
+    padding: 10px;
+    background-color: #000000;
+}
+#prjct {
+    display: flex;
+    justify-content:space-evenly;
+
+}
