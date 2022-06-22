@@ -99,6 +99,13 @@ ul{
     justify-content: center;
     margin: 10px;
 }
+.pairs > div > a{
+    text-decoration: none;
+    color: rgb(233, 220, 194);
+}
+.pairs > div > a,h4:hover {
+    background-color:rgb(114, 63, 13);
+}
 .pairs {
     padding: 10px;
 }
