@@ -41,7 +41,7 @@ ul{
     margin: 10px;
 }
 .me {
-    border: #000000 solid 5px;
+    border: black solid 5px;
     border-radius: 50% ;
 }
 
@@ -103,9 +103,11 @@ ul{
     text-decoration: none;
     color: rgb(233, 220, 194);
 }
-.pairs > div > a,h4:hover {
-    background-color:rgb(114, 63, 13);
+.pairs > div > a:hover{
+    text-decoration: underline;
+    color: rgb(255, 217, 0);
 }
+
 .pairs {
     padding: 10px;
 }
@@ -115,4 +117,12 @@ ul{
 }
 footer {
     padding: 5px;
+}
+#foot {
+    color: rgb(226, 165, 80);
+    text-decoration: none;
+}
+#foot:hover {
+    color: crimson;
+    background-color: antiquewhite;
 }
