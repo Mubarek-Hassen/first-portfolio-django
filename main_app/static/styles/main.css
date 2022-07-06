@@ -142,3 +142,15 @@ footer {
 #contact {
     text-decoration: underline;
 }
+@media screen and (max-width: 450px) {
+    #txt > * {
+        font-size: medium;
+    }
+    .me {
+        width: 200px;
+    }
+    .abt > p {
+        font-size: 14px;
+    }
+
+}
