@@ -2,17 +2,15 @@ html,body {
     margin: auto;
     padding: 0;
     text-align: center;
-    /* Created with https://www.css-gradient.com */
-    /* background: #6A5B2F;
-    background: -webkit-linear-gradient(top left, #6A5B2F, #553614);
-    background: -moz-linear-gradient(top left, #6A5B2F, #553614);
-    background: linear-gradient(to bottom right, #6A5B2F, #553614);
-    background-repeat: no-repeat;
-    background-attachment: fixed; */
     background-color: rgb(5, 57, 5);
-    /* background-color: rgb(4, 35, 129); */
     height: 100%;
     color:rgb(233, 220, 194);
+}
+header{
+    background-color: #000000;
+}
+#topic {
+    color: antiquewhite;
 }
 
 ul{
