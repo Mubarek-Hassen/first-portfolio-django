@@ -24,7 +24,9 @@ ul{
     margin-right: 25px;
     display: inline;
 }
-
+.first{
+    text-decoration: underline;
+}
 .int{
     background-color: #000000;
     background-repeat: no-repeat;
@@ -106,6 +108,7 @@ ul{
 .pairs > div > a:hover{
     text-decoration: underline;
     color: rgb(255, 217, 0);
+    font-style: italic;
 }
 
 .pairs {
@@ -125,4 +128,17 @@ footer {
 #foot:hover {
     color: crimson;
     background-color: antiquewhite;
+    padding: 5px;
+    font-style: italic;
+}
+
+#file {
+    color: wheat;
+}
+#file:hover{
+    padding: 5px;
+    text-decoration: underline;
+    font-style: italic;
+    color: green;
+    background-color: whitesmoke;
 }
