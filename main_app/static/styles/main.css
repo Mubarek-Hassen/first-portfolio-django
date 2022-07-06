@@ -134,9 +134,11 @@ footer {
     color: wheat;
 }
 #file:hover{
-    padding: 5px;
     text-decoration: underline;
     font-style: italic;
     color: green;
     background-color: whitesmoke;
+}
+#contact {
+    text-decoration: underline;
 }
